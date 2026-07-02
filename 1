@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannah Ray | Live Wedding & Event Singer | Cape Town</title>
+    
+    <meta name="description" content="Elegant, soulful, and warm live acoustic music for luxury weddings and corporate events in Cape Town. Available as an acoustic duo, trio, or full live party band.">
+    <meta name="keywords" content="wedding singer cape town, live wedding music, western cape wedding band, acoustic wedding duo, soul singer cape town, hannah ray music">
+    <meta name="author" content="Hannah Ray">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Musician",
+      "name": "Hannah Ray",
+      "description": "Elegant, soulful, and warm live acoustic music for weddings and boutique events in Cape Town.",
+      "url": "https://hannahraymusic.co.za",
+      "genre": ["Soul", "Jazz", "Acoustic Pop", "R&B"],
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Western Cape"
+      },
+      "offers": {
+        "@type": "Offer",
+        "description": "Bespoke live musical packages for wedding ceremonies, cocktail hours, and full band reception parties."
+      }
+    }
+    </script>
+
+    <style>
+        /* Color Palette & Custom Properties */
+        :root {
+            --warm-ivory: #F8F5F1;
+            --soft-linen: #EEE7DE;
+            --sandstone: #D8C6B5;
+            --taupe: #A58E7A;
+            --espresso: #3E332C;
+            --sage: #8E9C8A;
+            --olive: #6E7866;
+            --champagne-gold: #C9B38A;
+            
+            --font-serif: 'Cormorant Garamond', serif;
+            --font-sans: 'Montserrat', sans-serif;
+        }
+
+        /* Reset & Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            min-height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-color: var(--warm-ivory);
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cpath d='M30 30c0-5.523-4.477-10-10-10s-10 4.477-10 10 4.477 10 10 10 10-4.477 10-10zm-10 8c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zm40-8c0-5.523-4.477-10-10-10s-10 4.477-10 10 4.477 10 10 10 10-4.477 10-10zm-10 8c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zM30 0C16.745 0 6 10.745 6 24c0 4.137 1.053 8.028 2.91 11.432l-.017.017A29.864 29.864 0 0 0 0 54c0 3.314 2.686 6 6 6s6-2.686 6-6c0-6.103 3.442-11.411 8.525-14.143A23.863 23.863 0 0 0 30 42c3.486 0 6.791-.747 9.782-2.083C44.752 42.66 48 47.935 48 54c0 3.314 2.686 6 6 6s6-2.686 6-6a29.866 29.866 0 0 0-8.893-21.448l-.016-.016A23.911 23.911 0 0 0 54 24C54 10.745 43.255 0 30 0zm0 40c-8.822 0-16-7.178-16-16S21.178 8 30 8s16 7.178 16 16-7.178 16-16 16z' fill='%23e7ded4' fill-opacity='0.25' fill-rule='evenodd'/%3E%3C/svg%3E");
+            background-attachment: fixed;
+            background-repeat: repeat;
+            color: var(--espresso);
+            font-family: var(--font-sans);
+            font-size: 16px;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: var(--font-serif);
+            font-weight: 300;
+            letter-spacing: 0.06em;
+        }
+
+        a {
+            color: var(--espresso);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        /* Floating Navigation */
+        nav {
+            background-color: rgba(248, 245, 241, 0.92);
+            backdrop-filter: blur(5px);
+            border-bottom: 1px solid rgba(216, 198, 181, 0.4);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 10%;
+        }
+
+        .logo {
+            font-family: var(--font-serif);
+            font-size: 1.6rem;
+            font-weight: 400;
+            letter-spacing: 0.15em;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+        }
+
+        .nav-links a {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+        }
+
+        .nav-links a:hover {
+            color: var(--champagne-gold);
+        }
+
+        /* Hero / Welcome Section */
+        .hero {
+            padding: 15rem 10% 10rem 10%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 3.8rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            font-style: italic;
+        }
+
+        .hero p {
+            font-family: var(--font-sans);
+            font-weight: 300;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--taupe);
+            max-width: 700px;
+            margin-bottom: 3rem;
+        }
+
+        /* Luxury Call to Action Buttons */
+        .cta-button {
+            display: inline-block;
+            background-color: var(--olive);
+            color: var(--warm-ivory);
+            padding: 1.1rem 2.8rem;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.2em;
+            transition: all 0.4s ease;
+            border: 1px solid var(--olive);
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(110, 120, 102, 0.15);
+        }
+
+        .cta-button:hover {
+            background-color: transparent;
+            color: var(--espresso);
+            border: 1px solid var(--taupe);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+        }
+
+        /* Core Layout Components */
+        section {
+            padding: 7rem 10%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.6rem;
+            margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            color: var(--taupe);
+            margin-bottom: 4rem;
+        }
+
+        /* Showcase Custom Swiper Layout */
+        .swiper-wrapper-container {
+            position: relative;
+            width: 100%;
+            max-width: 460px; /* Slightly widened to accommodate navigation handles elegantly */
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .video-slider {
+            width: 100%;
+            max-width: 380px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .video-track {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+            width: 200%; /* Two slides total */
+        }
+
+        .video-slide {
+            width: 50%; /* Each slide takes exactly half of the 200% width track */
+            flex-shrink: 0;
+            padding: 0 5px;
+        }
+
+        /* Responsive Vertical Shorts Video Frame */
+        .video-container {
+            position: relative;
+            width: 100%;
+            box-shadow: 0 20px 45px rgba(62, 51, 44, 0.08);
+            border: 14px solid var(--soft-linen);
+            background-color: var(--soft-linen);
+        }
+
+        .video-ratio {
+            position: relative;
+            padding-bottom: 177.77%; /* Vertical 9:16 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-ratio iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Micro Swiper Navigation UI Elements */
+        .swiper-btn {
+            background: none;
+            border: none;
+            font-family: var(--font-serif);
+            font-size: 2.2rem;
+            color: var(--taupe);
+            cursor: pointer;
+            padding: 0 10px;
+            user-select: none;
+            transition: color 0.3s ease;
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .swiper-btn:hover {
+            color: var(--espresso);
+        }
+
+        .swiper-btn.prev { left: -10px; }
+        .swiper-btn.next { right: -10px; }
+
+        .swiper-dots {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 1.5rem;
+        }
+
+        .dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background-color: var(--sandstone);
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .dot.active {
+            background-color: var(--espresso);
+            transform: scale(1.2);
+        }
+
+        /* Wedding Offerings / Lineups Grid */
+        .intro-text {
+            text-align: center;
+            max-width: 750px;
+            margin: 0 auto 5rem auto;
+            font-size: 1.25rem;
+            font-family: var(--font-serif);
+            font-style: italic;
+            color: var(--espresso);
+            line-height: 1.8;
+        }
+
+        .lineups {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+
+        .lineup-card {
+            background-color: rgba(248, 245, 241, 0.85);
+            padding: 3.5rem 2.5rem;
+            border: 1px solid var(--sandstone);
+            text-align: center;
+            backdrop-filter: blur(3px);
+            position: relative;
+        }
+
+        .lineup-card::before {
+            content: '';
+            position: absolute;
+            top: 10px; left: 10px; right: 10px; bottom: 10px;
+            border: 1px solid rgba(201, 179, 138, 0.3);
+            pointer-events: none;
+        }
+
+        .lineup-card h3 {
+            font-size: 2rem;
+            margin-bottom: 1.2rem;
+            color: var(--espresso);
+        }
+
+        .lineup-card p {
+            font-size: 0.95rem;
+            color: var(--taupe);
+            font-weight: 300;
+        }
+
+        /* Call To Action Frame */
+        .contact-section {
+            text-align: center;
+            padding: 9rem 10%;
+            max-width: 100%;
+            background: linear-gradient(to bottom, transparent, var(--soft-linen));
+        }
+
+        .contact-section p {
+            max-width: 600px;
+            margin: 0 auto 3rem auto;
+            font-size: 1.1rem;
+            font-family: var(--font-serif);
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--espresso);
+            color: var(--warm-ivory);
+            text-align: center;
+            padding: 3.5rem 10%;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        footer p {
+            color: var(--sandstone);
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            nav { padding: 1rem 5%; flex-direction: column; gap: 0.8rem; }
+            .nav-links { gap: 1.5rem; }
+            .hero { padding: 15rem 5% 7rem 5%; }
+            .hero h1 { font-size: 2.5rem; }
+            section { padding: 5rem 5%; }
+            .lineups { grid-template-columns: 1fr; gap: 2.5rem; }
+            .video-container { border: 6px solid var(--soft-linen); }
+            .swiper-wrapper-container { max-width: 100%; }
+            .swiper-btn.prev { left: -5px; }
+            .swiper-btn.next { right: -5px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">HANNAH RAY</div>
+        <ul class="nav-links">
+            <li><a href="#about">The Experience</a></li>
+            <li><a href="#showcase">Watch &amp; Listen</a></li>
+            <li><a href="#enquire">Connect</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Bespoke Live Music for Elegant Weddings</h1>
+        <p>SOULFUL ACOUSTIC ELEMENTS &amp; HIGH-ENERGY CELEBRATIONS • CAPE TOWN • WESTERN CAPE</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4auYepJA3Fd2_yRZu4ulyTlefRi9Csj96CHH1aqJbPQYb2Q/viewform?usp=header" target="_blank" class="cta-button">Check Wedding Date</a>
+    </header>
+
+    <section id="about">
+        <h2 class="section-title">The Perfect Soundtrack</h2>
+        <div class="section-subtitle">Crafting Magical Moments</div>
+        
+        <p class="intro-text">
+            "From the delicate, breathtaking notes walking down the aisle, and the warm romance of your cocktail hour, to an unforgettable dancefloor celebration with your closest people."
+        </p>
+        
+        <div class="lineups">
+            <div class="lineup-card">
+                <h3>Acoustic Duo or Trio</h3>
+                <p>Designed for intimate luxury. Stripped back vocal, guitar, and either subtle percussion or bass configurations that infuse warm, soulful romance into your special day.</p>
+            </div>
+            <div class="lineup-card">
+                <h3>Full Live Wedding Band</h3>
+                <p>Elevate your main reception party. A sophisticated, soul-filled live band experience curated to romance you over dinner before filling the dancefloor with flawless renditions of timeless dance classics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase">
+        <h2 class="section-title">Watch &amp; Listen</h2>
+        <div class="section-subtitle">Experience the Sound &amp; Atmosphere</div>
+        
+        <div class="swiper-wrapper-container">
+            <button class="swiper-btn prev" onclick="moveSlide(-1)">&#8249;</button>
+            
+            <div class="video-slider">
+                <div class="video-track" id="videoTrack">
+                    
+                    <div class="video-slide">
+                        <div class="video-container">
+                            <div class="video-ratio">
+                                <iframe 
+                                    id="player1"
+                                    src="https://www.youtube.com/embed/9s8NthFXaNs?enablejsapi=1" 
+                                    title="Hannah Ray Live Performance Showcase"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="video-slide">
+                        <div class="video-container">
+                            <div class="video-ratio">
+                                <iframe 
+                                    id="player2"
+                                    src="https://www.youtube.com/embed/ydgWTmIQjzU?enablejsapi=1" 
+                                    title="Hannah Ray Live Acoustic Clip"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <button class="swiper-btn next" onclick="moveSlide(1)">&#8250;</button>
+        </div>
+
+        <div class="swiper-dots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+        </div>
+    </section>
+
+    <section id="enquire" class="contact-section">
+        <h2 class="section-title">Let's Create Forever</h2>
+        <div class="section-subtitle">Enquire Securely Below</div>
+        <p>Dates fill up quickly across the Western Cape wedding seasons. Complete our brief digital timeline planner so we can construct your tailored acoustic quote.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4auYepJA3Fd2_yRZu4ulyTlefRi9Csj96CHH1aqJbPQYb2Q/viewform?usp=header" target="_blank" class="cta-button" style="background-color: var(--espresso); border-color: var(--espresso);">Secure Your Date</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Hannah Ray Music. Curating luxury wedding entertainment across Cape Town &amp; The Winelands.</p>
+    </footer>
+
+    <script>
+        let currentSlideIndex = 0;
+        const track = document.getElementById('videoTrack');
+        const dots = document.querySelectorAll('.dot');
+        const totalSlides = 2;
+
+        function updateSliderPosition() {
+            track.style.transform = `translateX(-${currentSlideIndex * 50}%)`;
+            
+            // Toggle active pagination highlights
+            dots.forEach((dot, index) => {
+                if(index === currentSlideIndex) {
+                    dot.classList.add('active');
+                } else {
+                    dot.classList.remove('active');
+                }
+            });
+
+            // Post command structure to pause inactive iframe video pipelines via YouTube JS API
+            const p1 = document.getElementById('player1').contentWindow;
+            const p2 = document.getElementById('player2').contentWindow;
+            
+            if (currentSlideIndex === 0) {
+                p2.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+            } else {
+                p1.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+            }
+        }
+
+        function moveSlide(direction) {
+            currentSlideIndex += direction;
+            if (currentSlideIndex >= totalSlides) currentSlideIndex = 0;
+            if (currentSlideIndex < 0) currentSlideIndex = totalSlides - 1;
+            updateSliderPosition();
+        }
+
+        function goToSlide(index) {
+            currentSlideIndex = index;
+            updateSliderPosition();
+        }
+    </script>
+
+</body>
+</html>
